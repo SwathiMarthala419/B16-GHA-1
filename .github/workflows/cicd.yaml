@@ -1,0 +1,10 @@
+name: First GHA Test
+on:
+  push
+jobs:
+  B16-first-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: message
+        run: echo "Welcome to GHA by Batch16 champs"
+        
